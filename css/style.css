@@ -121,7 +121,6 @@ header >.logo{
 .col{
     float: left;
     width: 23%;
-    height: 600px;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;  
@@ -132,17 +131,13 @@ header >.logo{
     width: 100%;
     height: 300px;
 }
-/* titolo h5 della descrizione */
-.container-img > h3,p{
-    text-align:left;
-}
 /* padding titolo descrizione */
-.container-img > h3{
+.container-text > h3{
     padding: 17px 0;
     font-weight: 100;
 }
 /* paragrafo descrizione bianco */
-.container-img > p{
+.container-text > p{
     color: #bababa;
 }
 /* colonan più grande */
@@ -151,7 +146,9 @@ header >.logo{
     margin-right: 2%;
     margin-left: 2%;
 }
-
+.container-text{
+    text-align: left;
+}
 /* END MAIN */
 
 /* FOOTER */
